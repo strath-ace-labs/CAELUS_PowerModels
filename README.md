@@ -1,4 +1,5 @@
 # CAELUS PowerModels
+[![PyPowerModels Test](https://github.com/strathclyde-artificial-intelligence/CAELUS_PowerModels/actions/workflows/python-app.yml/badge.svg)](https://github.com/strathclyde-artificial-intelligence/CAELUS_PowerModels/actions/workflows/python-app.yml)
 A python port of the power models developed by Ikenn Efika for the CAELUS project (Strathclyde University).
 
 # Exposed functions
