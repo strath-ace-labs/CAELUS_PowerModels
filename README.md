@@ -1,4 +1,7 @@
-# External functions
+# CAELUS PowerModels
+A python port of the power models developed by Ikenn Efika for the CAELUS project (Strathclyde University).
+
+# Exposed functions
 
 ### Powertrain ESC Motor
 This function is designed to represent the Electronic speed controller and motor for each motor on the Avy Aera Drone. 
@@ -25,6 +28,9 @@ A list containing the following data:
 *w*:
 The motor speed value provided from Px4 to an ESC
 
+*thrust*:
+The thrust produced under current conditions
+
 *mod*:
 The current state of Modulation Index to store in a database
 
@@ -34,8 +40,6 @@ Energy Capacity (Ah) consumed, to be sent to battery model
 *Idis*:
 The current demand from the system
 
-*thrust*:
-The thrust produced under current conditions
 
 #### Assumptions
 * tau_electrical << tau_mechanical << tau_aerodynamics
